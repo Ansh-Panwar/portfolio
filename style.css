@@ -1,71 +1,87 @@
-/* style.css */
+/* Updated style.css for a modern portfolio design */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: #f0f0f0;
     color: #333;
 }
 
 header {
-    background: #333;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
 }
 
 nav {
-    background: #444;
+    background: #333;
+    padding: 15px 0;
     text-align: center;
-    padding: 10px 0;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s;
 }
 
-section {
-    max-width: 800px;
-    margin: 20px auto;
+nav ul li a:hover {
+    color: #6a11cb;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
     padding: 20px;
     background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
     color: #333;
+    border-bottom: 2px solid #6a11cb;
+    padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 30px;
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
 ul li {
-    background: #ddd;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
+    background: #eef2ff;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    font-size: 16px;
 }
 
 a {
-    color: #007BFF;
+    color: #2575fc;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -74,8 +90,9 @@ a:hover {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background: #333;
     color: white;
-    margin-top: 20px;
+    margin-top: 30px;
+    font-size: 14px;
 }
