@@ -87,13 +87,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
 /* Streamlit Application Thumbnails */
 .app-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px; /* Slightly increased spacing */
     padding: 20px;
     text-align: center;
 }
@@ -108,10 +107,10 @@ a:hover {
 }
 
 .app-container img {
-    width: 200px;
-    height: 150px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;  /* Increased width */
+    height: 180px; /* Increased height */
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -120,11 +119,12 @@ a:hover {
 }
 
 .app-container p {
-    margin-top: 8px;
-    font-size: 16px;
+    margin-top: 10px;
+    font-size: 18px; /* Slightly larger text */
     font-weight: bold;
     color: #333;
 }
+
 
 
 /* Footer */
