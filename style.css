@@ -61,6 +61,14 @@ h2 {
     padding-bottom: 5px;
 }
 
+#contact h2, 
+#education h2, 
+#projects h2, 
+#skills h2, 
+#certifications h2 {
+    color: #2575fc; /* Blue color */
+}
+
 section {
     margin-bottom: 30px;
 }
