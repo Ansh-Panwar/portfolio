@@ -35,11 +35,11 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #2575fc; /* Blue color */
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
-    transition: color 0.3s;
+    transition: color 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
@@ -59,14 +59,6 @@ h2 {
     color: #333;
     border-bottom: 2px solid #6a11cb;
     padding-bottom: 5px;
-}
-
-#contact h2, 
-#education h2, 
-#projects h2, 
-#skills h2, 
-#certifications h2 {
-    color: #2575fc; /* Blue color */
 }
 
 section {
