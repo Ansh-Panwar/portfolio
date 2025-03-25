@@ -88,6 +88,35 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Streamlit Application Thumbnails */
+.app-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.app-container a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.app-container img {
+    width: 200px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.app-container a:hover img {
+    transform: scale(1.1);
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
